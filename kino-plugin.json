@@ -1,0 +1,108 @@
+{
+  "id": "theme-nublado",
+  "name": "Nublado",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Tema oscuro de cielo nublado para Kino: grises azulados, acento celeste, logo de nube y controles del reproductor suaves.",
+  "hosts": [],
+  "categories": ["themes"],
+  "color": "#8FB8DE",
+  "icon": "icon.png",
+  "appThemes": [
+    {
+      "id": "nublado",
+      "name": { "es": "Nublado", "en": "Overcast" },
+      "experience": "full",
+      "pluginColors": "respect",
+      "colors": {
+        "accent": "#8FB8DE",
+        "onAccent": "#0E1217",
+        "background": "#10141A",
+        "surface": "#1E252E",
+        "surfaceHigh": "#2A3340",
+        "railPanel": "#171C23",
+        "textPrimary": "#EEF2F6",
+        "textSecondary": "#A9B4C0",
+        "focus": "#E8F1F9",
+        "onFocus": "#10151B",
+        "outline": "#3A4654",
+        "border": "#4A5A6C",
+        "placeholderTop": "#28313C",
+        "placeholderBottom": "#1A2028",
+        "success": "#7FD1AE",
+        "warning": "#E6C27A",
+        "error": "#E88A8A",
+        "favorite": "#F2A7C3",
+        "scrim": "#0A0D11"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": ["#222B36", "#10141A"],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 22,
+        "chipRadius": 20,
+        "dialogRadius": 22,
+        "inputRadius": 14,
+        "dialogBorder": 1,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "panelBorder": 1
+      },
+      "typography": { "scale": 1.0, "titleScale": 1.05, "bodyScale": 1.0 },
+      "elevation": { "cardShadow": 0.35, "dialogShadow": 0.6, "heroScrim": 0.7 },
+      "motion": { "focusZoom": 1.06, "crossfadeMs": 350, "heroDrift": "on" },
+      "player": {
+        "buttonScale": 1.0,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.2,
+        "labelScale": 1.0,
+        "buttonShape": "circle"
+      },
+      "tv": {
+        "typography": { "scale": 1.05 },
+        "motion": { "focusZoom": 1.08 }
+      },
+      "adjustable": {
+        "colors.accent": { "swatches": ["#8FB8DE", "#A5B4FC", "#7FD1C8", "#F2C48D"] },
+        "shape.cardRadius": { "min": 0, "max": 24 },
+        "typography.scale": { "min": 0.95, "max": 1.2 },
+        "player.buttonScale": { "min": 0.9, "max": 1.3 },
+        "background": true
+      },
+      "logo": {
+        "wordmark": {
+          "size": [128, 30],
+          "paths": [
+            {
+              "d": "M8 27C3.6 27 0 23.6 0 19.5C0 15.8 2.8 12.8 6.5 12.2C7.4 7 11.8 3 17.2 3C21.6 3 25.4 5.7 27 9.6C27.7 9.4 28.4 9.3 29.2 9.3C33.1 9.3 36.3 12.4 36.3 16.3C36.3 17 36.2 17.6 36 18.2C38 19.3 39 21.2 39 23C39 25.3 37.1 27 34.5 27Z",
+              "fill": "accent"
+            },
+            { "d": "M16 11L16 21L24 16Z", "fill": "onAccent" },
+            { "d": "M48 6H52V24H48Z M52 15L61.5 6H67L58 15L67.5 24H62Z", "fill": "textPrimary" },
+            { "d": "M72 6H76V24H72Z", "fill": "textPrimary" },
+            { "d": "M82 24V6H86L95 18V6H99V24H95L86 12V24Z", "fill": "textPrimary" },
+            {
+              "d": "M104 15A9 9 0 1 1 122 15A9 9 0 1 1 104 15Z M108 15A5 5 0 1 0 118 15A5 5 0 1 0 108 15Z",
+              "fill": "accent"
+            }
+          ]
+        },
+        "mark": {
+          "size": [39, 30],
+          "paths": [
+            {
+              "d": "M8 27C3.6 27 0 23.6 0 19.5C0 15.8 2.8 12.8 6.5 12.2C7.4 7 11.8 3 17.2 3C21.6 3 25.4 5.7 27 9.6C27.7 9.4 28.4 9.3 29.2 9.3C33.1 9.3 36.3 12.4 36.3 16.3C36.3 17 36.2 17.6 36 18.2C38 19.3 39 21.2 39 23C39 25.3 37.1 27 34.5 27Z",
+              "fill": "accent"
+            },
+            { "d": "M16 11L16 21L24 16Z", "fill": "onAccent" }
+          ]
+        }
+      }
+    }
+  ]
+}
